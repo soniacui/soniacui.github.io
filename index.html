@@ -2,49 +2,84 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:800&display=swap" rel="stylesheet">
 </head>
 
 <style>
     header {
         background-color: grey;
-        height: 100px;
+        height: 15%;
     }
+
     #landing {
-        background-color: blue;
+        background-color: #fff8dc;
         height: 100%;
         text-align: center;
+
+
     }
+
+    .title {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        font-size: 86px;
+        letter-spacing: 35px;
+        line-height: 0.5em;
+    }
+
     #skills {
         background-color: red;
         height: 300px;
     }
+
     #experience {
         background-color: coral;
         height: 300px;
         text-align: center;
     }
-    #projects{
+
+    #projects {
         background-color: green;
         height: 300px;
         text-align: center;
     }
+
     .face {
         border-radius: 50%;
         width: 25%;
     }
+
+    button {
+        margin-right: 1%;
+        border-radius: 0;
+    }
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        text-align: left;
+    }
 </style>
 
 <body>
-    <header>
-        <button>skills</button>
-        <button>experience</button>
-        <button>projects</button>
-        <button>socials</button>
-    </header>
+
+    <div class="container-fluid">
+        <div class="row justify-content-end">
+            <button type="button" class="btn rounded-0 btn-outline-dark pull-right">socials</button>
+            <button type="button" class="btn rounded-0 btn-outline-dark pull-right">projects</button>
+            <button type="button" class="btn rounded-0 btn-outline-dark pull-right">experience</button>
+            <button type="button" class="btn rounded-0 btn-outline-dark pull-right">skills</button>
+        </div>
+    </div>
+
+
+
 
     <section id="landing">
-        <h1>SONIA CUI</h1>
+        <h1 class="title">SONIA CUI</h1>
         <h3>uwaterloo 2b cs</h3>
 
         <img class="face" src="./sonia.jpg" />
@@ -66,7 +101,7 @@
         </table>
     </section>
 
-    <section id="projects"> 
+    <section id="projects">
         <table>
             <tr>music theory app | description | link | download</tr> <br>
             <tr>to do list app</tr> <br>
@@ -78,7 +113,7 @@
 
 
     <footer>
-        visit me @: linkedin, github, 
+        visit me @: linkedin, github,
     </footer>
 </body>
 
