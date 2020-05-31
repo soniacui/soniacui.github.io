@@ -18,8 +18,6 @@
         background-color: #fff8dc;
         height: 100%;
         text-align: center;
-
-
     }
 
     .title {
@@ -30,11 +28,6 @@
         line-height: 0.5em;
     }
 
-    #skills {
-        background-color: red;
-        height: 300px;
-    }
-
     #experience {
         background-color: coral;
         height: 300px;
@@ -42,9 +35,17 @@
     }
 
     #projects {
-        background-color: green;
+        background-color: #fff8dc;
         height: 300px;
         text-align: center;
+    }
+
+    footer {
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 24px;
+        letter-spacing: 35px;
+
     }
 
     .face {
@@ -56,16 +57,19 @@
         margin-right: 1%;
         border-radius: 0;
     }
+
     body {
         font-family: 'Roboto', sans-serif;
         margin: 0px;
         padding: 0px;
         text-align: left;
     }
+
+    table {}
 </style>
 
-<body>
 
+<body>
     <div class="container-fluid">
         <div class="row justify-content-end">
             <button type="button" class="btn rounded-0 btn-outline-dark pull-right">socials</button>
@@ -75,9 +79,6 @@
         </div>
     </div>
 
-
-
-
     <section id="landing">
         <h1 class="title">SONIA CUI</h1>
         <h3>uwaterloo 2b cs</h3>
@@ -86,34 +87,95 @@
         <p>some indication of scroll down to see more</p>
     </section>
 
-    <section id="skills">
-        skills go here
-    </section>
+    <section class="timeline">
+        <ol>
+            <li>
+                <div>
+                    <time>King's Kitchen</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                    blanditiis
+                    praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>MHAC</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse
+                    finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>UHS</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar
+                    tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>5428 Breaking Bots</time> In mattis elit vitae odio posuere, nec maximus massa varius.
+                    Suspendisse varius
+                    volutpat mattis. Vestibulum id magna est.
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>Ontario Ministry</time> In mattis elit vitae odio posuere, nec maximus massa varius.
+                    Suspendisse varius
+                    volutpat mattis. Vestibulum id magna est.
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>Infor</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius
+                    volutpat mattis. Vestibulum id magna est.
+                </div>
+            </li>
+        </ol>
 
-    <section id="experience">
-        <table>
-            <tr>infor | desc </tr> <br>
-            <tr>cyssc</tr> <br>
-            <tr>robobtics</tr> <br>
-            <tr>mhac</tr> <br>
-            <tr>uhs</tr> <br>
-            <tr>king's kitchen</tr> <br>
-        </table>
     </section>
+    <div class="container">
+        <div class="row">
+            <table class="table table-borderless text-left">
+                <tbody>
+                    <tr>
+                        <td>Teaching App, link</td>
+                        <td>
+                            <ul>
+                                <li>Developed interactive music theory teaching software using Java</li>
+                                <li>Designed an intuitive GUI with original audio and visuals </li>
+                                <li>Utilized the SDLC as an integral guideline to planning and developing the program
+                                </li>
+                                <li>Documented project using technical planning methods such as IPO charts and DFDs</li>
+                            </ul>
 
-    <section id="projects">
-        <table>
-            <tr>music theory app | description | link | download</tr> <br>
-            <tr>to do list app</tr> <br>
-            <tr>snake</tr> <br>
-            <tr>shape animation</tr> <br>
-            <tr>minesweeper</tr> <br>
-        </table>
-    </section>
 
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>To-Do App, link</td>
+                        <td>
+                            <ul>
+                                <li>Created a Java app that organizes user tasks with a navigable GUI</li>
+                                <li>Applied object oriented programming to abstract and consolidate code</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Snake, link</td>
+                        <td>
+                            <ul>
+                                <li>Implemented a classic game using object oriented programming and Java</li>
+                                <li>Incorporated high score system and animated visual instructions</li>
+                                <li>Handled images and audio as well as mouse and keyboard inputs</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 
     <footer>
-        visit me @: linkedin, github,
+        See more at @: linkedin, github,
     </footer>
 </body>
 
