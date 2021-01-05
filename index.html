@@ -9,6 +9,26 @@
 </head>
 
 <style>
+    .nav {
+        background-color: white;
+        color: black;
+        padding-left: 3%;
+        font-family: 'Roboto', sans-serif;
+    }
+    .logo {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    a:hover {
+        color: gray;
+        text-decoration: none;
+    }
+
+    a:active {
+        color: gray;
+        text-decoration: none;
+    }
+
     .landing {
         background-color: red;
         height: 500px;
@@ -74,20 +94,20 @@
 
 
 <body>
-    <div class="row container-fluid">
+    <div class="row container-fluid header">
         <div class="col">
-            <a href="./index.html">logo</a>
+            <a href="./index.html" class="nav logo">SONIA CUI</a>
         </div>
         <div class="col justify-content-end d-flex">
 
-            <a href="./index.html">home</a>
+            <a href="./index.html" class="nav">Home</a>
 
-            <a href="./index.html#projects-section">projects</a>
+            <a href="./index.html#projects-section" class="nav">Projects</a>
             <!--animate down-->
 
-            <a href="./about.html">about</a>
+            <a href="./about.html" class="nav">About</a>
 
-            <a href="./resume.html">resume</a>
+            <a href="./resume.html" class="nav">Resume</a>
             <!--pdf of resume can be uploaded in assets-->
 
         </div>
@@ -106,11 +126,11 @@
 
 
     </div>
-    <div class="row text-center">
-        <div class="col">
+    <!-- <div class="row text-center"> -->
+    <!-- <div class="col">
             <p>scroll arrow</p>
         </div>
-    </div>
+    </div> -->
 
     <div class="row project" id="projects-section">
 
