@@ -12,11 +12,18 @@
     .nav {
         background-color: white;
         color: black;
-        padding-left: 3%;
+        padding-left: 5%;
         font-family: 'Roboto', sans-serif;
+        margin-top: 10%;
     }
+
     .logo {
         font-family: 'Raleway', sans-serif;
+        padding-left: 20%;
+    }
+
+    .menu {
+        padding-right: 10%;
     }
 
     a:hover {
@@ -30,10 +37,12 @@
     }
 
     .landing {
-        background-color: red;
+        /* background-color: red; */
         height: 500px;
         margin-bottom: 5%;
-        text-align: center;
+        text-align: left;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
     .title {
@@ -45,9 +54,11 @@
     }
 
     footer {
+        margin-top: 10%;
+        margin-bottom: 2%;
         text-align: center;
         font-family: 'Raleway', sans-serif;
-        font-size: 24px;
+        font-size: 14px;
 
     }
 
@@ -69,8 +80,8 @@
     }
 
     .project {
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 15%;
+        padding-right: 15%;
         margin-bottom: 5%;
 
     }
@@ -81,14 +92,24 @@
         width: 100%;
         height: 300px;
         border-radius: 15px;
+
     }
 
-    .a {
-        background-color: pink;
+
+    .connect {
+        padding-left: 16%;
+        margin-top: 5%;
     }
 
-    .b {
-        background-color: orange;
+    .icon {
+        border-radius: 0;
+        width: 30px;
+        margin-left: 10px;
+    }
+
+    .hook {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
     }
 </style>
 
@@ -98,7 +119,7 @@
         <div class="col">
             <a href="./index.html" class="nav logo">SONIA CUI</a>
         </div>
-        <div class="col justify-content-end d-flex">
+        <div class="col justify-content-end d-flex menu">
 
             <a href="./index.html" class="nav">Home</a>
 
@@ -107,50 +128,66 @@
 
             <a href="./about.html" class="nav">About</a>
 
-            <a href="./resume.html" class="nav">Resume</a>
+            <a href="./resume.pdf" target="_blank" class="nav">Resume</a>
             <!--pdf of resume can be uploaded in assets-->
 
         </div>
     </div>
 
     <div class="row landing justify-content-around align-items-center">
-        <div class="col a">
-            <h1 class="title">hi! i'm sonia</h1>
-            <h3> i'm an aspiring product designer currently studying computer science! </h3>
+        <div class="col">
+            <h1 class="title">Hi, I'm Sonia!</h1>
+            <h4> I'm an aspiring product designer currently studying computer science at the University of Waterloo,
+                passionate about creating great experiences for users (: </h3>
         </div>
-        <div class="col b">
-            <img class="face" src="./sonia.jpg" />
-            <h3>placeholder</h3>
-        </div>
-
-
-
     </div>
-    <!-- <div class="row text-center"> -->
-    <!-- <div class="col">
-            <p>scroll arrow</p>
-        </div>
-    </div> -->
 
     <div class="row project" id="projects-section">
-
-        <a href="gamers.html" class="item">
-            <button type="button" class="btn btn-light item">gamers</button>
-        </a>
+        <div class="col">
+            <a href="gamers.html" class="item">
+                <button type="button" class="btn btn-light item">image</button>
+            </a>
+        </div>
+        <div class="col">
+            DISCORD EXTENSION . WHAT IT IS. WHAT KIND OF PROJECT. <br />
+            brief descrip <br />
+            View work (:
+        </div>
 
     </div>
 
     <div class="row project">
-        <a href="cyssc.html" class="item">
-            <button type="button" class="btn btn-light item">cyssc</button>
-        </a>
+        <div class="col">
+            <a href="cyssc.html" class="item">
+                <button type="button" class="btn btn-light item">image</button>
+            </a>
+        </div>
+        <div class="col">
+            CYSSC WEBSITE REDESIGN . WHAT IT IS. WHAT KIND OF PROJECT. <br />
+            brief descrip <br />
+            View work (:
+        </div>
 
     </div>
 
+    <div class="row">
+        <div class="col connect">
+            <h5 class="hook"> Let's connect! </h5>
+            <div class="row">
+                <a href="#"><img class="icon" alt="My email address" src="./mail.svg" /> soniacuisc@gmail.com </a>
+            </div>
+            <div class="row">
+                <a href="#"><img class="icon" alt="Link to GitHub"src="./github.svg" /> github </a>
+            </div>
+            <div class="row">
+                <a href="#"><img class="icon" alt="Link to LinkedIn" src="./linkedin.svg" /> linkedin </a>
+            </div>
+
+        </div>
+    </div>
+
     <footer>
-        hello again!
-        any questions? feel free to contact me!
-        (linkedin, github, ..)
+        © Sonia Cui 2021
     </footer>
 </body>
 

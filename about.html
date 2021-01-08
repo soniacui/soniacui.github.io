@@ -9,11 +9,40 @@
 </head>
 
 <style>
-       .landing {
-        background-color: red;
+    .nav {
+        background-color: white;
+        color: black;
+        padding-left: 5%;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 10%;
+    }
+
+    .logo {
+        font-family: 'Raleway', sans-serif;
+        padding-left: 20%;
+    }
+
+    .menu {
+        padding-right: 10%;
+    }
+
+    a:hover {
+        color: gray;
+        text-decoration: none;
+    }
+
+    a:active {
+        color: gray;
+        text-decoration: none;
+    }
+
+    .landing {
+        /* background-color: red; */
         height: 500px;
         margin-bottom: 5%;
-        text-align: center;
+        text-align: left;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
     .title {
@@ -25,15 +54,16 @@
     }
 
     footer {
+        margin-top: 10%;
+        margin-bottom: 2%;
         text-align: center;
         font-family: 'Raleway', sans-serif;
-        font-size: 24px;
+        font-size: 14px;
 
     }
 
     .face {
-        border-radius: 50%;
-        width: 25%;
+        width: 100%;
     }
 
     button {
@@ -47,34 +77,88 @@
         padding: 0px;
         text-align: left;
     }
+
+    .about {
+        padding-left: 12%;
+        padding-right: 12%;
+        margin-top: 15%;
+        margin-bottom: 50%;
+    }
+    .connect {
+        padding-left: 16%;
+        margin-top: 5%;
+    }
+
+    .icon {
+        border-radius: 0;
+        width: 30px;
+        margin-left: 10px;
+    }
+
+    .hook {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+    }
 </style>
 
 
 <body>
+    <div class="row container-fluid header">
+        <div class="col">
+            <a href="./index.html" class="nav logo">SONIA CUI</a>
+        </div>
+        <div class="col justify-content-end d-flex menu">
 
-    <div class="container-fluid">
-        <div class="row justify-content-end d-flex">
-            <button type="button" class="btn rounded-0 btn-outline-dark mr-auto p-2">
-                <a href="./index.html">logo</a>
-            </button>
+            <a href="./index.html" class="nav">Home</a>
 
-            <button type="button" class="btn rounded-0 btn-outline-dark pull-right">
-                <a href="./index.html">home</a>
-            </button>
-            <button type="button" class="btn rounded-0 btn-outline-dark pull-right">
-                <a href="./index.html#projects-section">projects</a>
-            </button>
-            <button type="button" class="btn rounded-0 btn-outline-dark pull-right">
-                <a href="./about.html">about</a>
-            </button>
-            <button type="button" class="btn rounded-0 btn-outline-dark pull-right">
-                <a href="./resume.html">resume</a>
-            </button>
+            <a href="./index.html#projects-section" class="nav">Projects</a>
+            <!--animate down-->
+
+            <a href="./about.html" class="nav">About</a>
+
+            <a href="./resume.html" class="nav">Resume</a>
+            <!--pdf of resume can be uploaded in assets-->
+
         </div>
     </div>
 
- <h1>about</h1>
+    <div class="row">
+        <div class="col about">
 
+            Hello! <br/>
+            <ul>
+                <li>3rd yr uw cs; dev -> prod design </li>
+                <li>why i wanna do prod design; talk abt how u have lots of CODING experience!!! lol</li> 
+                <li>random hobbies: calligraphy, bujo, piano, composing</li>
+           
+            </ul>
+         
+
+        </div>
+        <div class="col about">
+            <img class="face" alt="A picture of me (:" src="./sonia.jpg" /> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col connect">
+            <h5 class="hook"> Let's connect! </h5>
+            <div class="row">
+                <a href="#"><img class="icon" alt="My email address" src="./mail.svg" /> soniacuisc@gmail.com </a>
+            </div>
+            <div class="row">
+                <a href="#"><img class="icon" alt="Link to GitHub"src="./github.svg" /> github </a>
+            </div>
+            <div class="row">
+                <a href="#"><img class="icon" alt="Link to LinkedIn" src="./linkedin.svg" /> linkedin </a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        © Sonia Cui 2021
+    </footer>
 
 
 </body>
