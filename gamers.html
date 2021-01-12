@@ -9,14 +9,295 @@
 </head>
 
 <style>
+    .nav {
+        background-color: white;
+        color: black;
+        padding-left: 5%;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 10%;
+    }
+
+    .logo {
+        font-family: 'Raleway', sans-serif;
+        padding-left: 20%;
+    }
+
+    .menu {
+        padding-right: 10%;
+    }
+
+    a:hover {
+        color: gray;
+        text-decoration: none;
+    }
+
+    a:active {
+        color: gray;
+        text-decoration: none;
+    }
+
+    .landing {
+        /* background-color: red; */
+        height: 500px;
+        margin-bottom: 5%;
+        text-align: left;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .title {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        font-size: 86px;
+        /* letter-spacing: 35px; */
+        line-height: 0.5em;
+    }
+
+    footer {
+        margin-top: 10%;
+        margin-bottom: 2%;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+
+    }
+
+    .face {
+        border-radius: 50%;
+        width: 25%;
+    }
+
+    button {
+        margin-right: 1%;
+        border-radius: 0;
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        text-align: left;
+    }
+
+    .project {
+        padding-left: 15%;
+        padding-right: 15%;
+        margin-bottom: 5%;
+
+    }
+
+    .item {
+        color: black;
+        background-color: lightgray;
+        width: 100%;
+        height: 300px;
+        border-radius: 15px;
+
+    }
+
+
+    .connect {
+        padding-left: 16%;
+        margin-top: 30%;
+    }
+
+    .icon {
+        border-radius: 0;
+        width: 30px;
+        margin-left: 10px;
+    }
+
+    .hook {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+    }
+
+    .description {
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-top: 5%;
+    }
 </style>
 
 
 <body>
- <h1>games</h1>
+    <div class="row container-fluid header">
+        <div class="col">
+            <a href="./index.html" class="nav logo">SONIA CUI</a>
+        </div>
+        <div class="col justify-content-end d-flex menu">
+
+            <a href="./index.html" class="nav">Home</a>
+
+            <a href="./index.html#projects-section" class="nav">Projects</a>
+            <!--animate down-->
+
+            <a href="./about.html" class="nav">About</a>
+
+            <a href="./resume.pdf" target="_blank" class="nav">Resume</a>
+            <!--pdf of resume can be uploaded in assets-->
+
+        </div>
+    </div>
+
+    <div class="row ">
+        <div class="col description">
+            <h3>Overview</h3>
+            <h4>Context</h4>
+            <p>gaming app</p>
+            <h4>Team</h4>
+            <p>I tackled this project by myself!</p>
+            <h4>Contributions</h4>
+            <p>idea, UI/UX</p>
+            <h4>Timeline</h4>
+            <p>Dec. 2020 - Jan. 2021 (4 weeks)</p>
+            <h4>Tools</h4>
+            <p>Figma, Photoshop</p>
+
+            <br />
+
+            <h3>The Problem</h3>
+            <p>With everyone staying at home due to the unpredented COVID-19, gaming has become more popular than ever,
+                especially
+                as a tool to pass time and bond with others. Video game streamers on twitch views have gone up 50% in
+                just between
+                April and May of 2020. As more and more people turn to gaming for entertainment, I wanted to tackle the
+                issue of
+                wanting to play a super fun game, but not having the people to play it with/wanting to bond with people
+                over games.
+            </p>
+            <!--bold the main problem statement-->
+            <h4>Goal</h4>
+            <p>To make it easier for people to find people to play games with/meet people through games.</p>
+
+            <br />
+
+            <h3>Research</h3>
+            <h4>Primary Research</h4>
+            <p>I conducted surveys and interviews to dive deeper into what gamers find important in gaming friends.
+                I discovered that:
+            <ul>
+                <li>people mainly find people to play games with through Discord, or current/mutual friends</li>
+                <li>the most important factors when looking for someone to play games with are: availability,
+                    shared interests, and skill level
+                </li>
+                <li>the main obstacles to finding people to play games with are differing schedules, skill levels,
+                    or differing intentions with the game (e.g. casual vs. serious)
+                </li>
+            </ul>
+
+            </p>
+            <h4>Pain Points</h4>
+            <p>
+            <ol>
+                <li>
+                    People generally don't want to play with strangers and would rather play with friends or mutuals
+                </li>
+                <li>
+                    Sometimes friends don't play the same games or have different goals with the game
+                </li>
+                <li>
+                    People have different schedules, so it's sometimes difficult to sync up a good time to play together
+                </li>
+            </ol>
+            </p>
+
+            <br />
+
+            <h4>Competitive Analysis</h4>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Discordservers.com</th>
+                        <th>GameTree</th>
+                        <th>Adding people in game</th>
+                        <th>Playing with real life friends</th>
+                    </tr>
+                    <tr>
+                        <td>Schedule Availability</td>
+                        <td>Y</td>
+                        <td>Y</td>
+                        <td>N</td>
+                        <td>Y</td>
+                    </tr>
+                    <tr>
+                        <td>Skill Level Filtering</td>
+                        <td>N</td>
+                        <td>Y</td>
+                        <td>Y</td>
+                        <td>N</td>
+                    </tr>
+                    <tr>
+                        <td>Shared Interest Filtering</td>
+                        <td>Y</td>
+                        <td>Y</td>
+                        <td>Y</td>
+                        <td>Y</td>
+                    </tr>
+                    <tr>
+                        <td>Personality Filtering</td>
+                        <td>N</td>
+                        <td>N</td>
+                        <td>N</td>
+                        <td>Y</td>
+                    </tr>
+                </thead>
+            </table>
+
+            <br/>
+
+            <table class="table">
+                <tr>
+                    <th>Key Takeaways</th>
+                    <th>#####</th>
+                    <th>Opportunities</th>
+                </tr>
+                <tr>
+                    <td>
+                        People want to play with friends, mutuals, or people with shared interests so they'll get along.
+                    </td>
+                    <td>&rarr;</td>
+                    <td>Can form a network of mutuals and gather people together based on an already-shared interest.</td>
+                </tr>
+                <tr>
+                    <td>People have differing schedules</td>
+                    <td>&rarr;</td>
+                    <td>Create simple scheduling so that people can sign up for events at a certain time and date;
+                        people can vote for their desired time and make time in advance for the event.
+                    </td>
+                </tr>
+                <tr>
+                    <td>People like playing different games, or have different goals within a game (casual vs. serious)</td>
+                    <td>&rarr;</td>
+                    <td>Group people based on the game they're interested in and their intentions within the game</td>
+                </tr>
 
 
+            </table>
+            <br/>
 
-</body>
+            <h3>The Redesign</h3>
+            <h3>Conclusion</h3>
 
-</html>
+            <div class="row">
+                <div class="col connect">
+                    <h5 class="hook"> Let's connect! </h5>
+                    <div class="row">
+                        <a href="#"><img class="icon" alt="My email address" src="./mail.svg" /> soniacuisc@gmail.com </a>
+                    </div>
+                    <div class="row">
+                        <a href="#"><img class="icon" alt="Link to GitHub"src="./github.svg" /> github </a>
+                    </div>
+                    <div class="row">
+                        <a href="#"><img class="icon" alt="Link to LinkedIn" src="./linkedin.svg" /> linkedin </a>
+                    </div>
+        
+                </div>
+            </div>
+        
+            <footer>
+                © Sonia Cui 2021
+            </footer>
+        </div>
+    </div>
