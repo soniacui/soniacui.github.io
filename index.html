@@ -19,7 +19,7 @@
     }
 
     .logo {
-        font-family: 'Inter', sans-serif;
+        font-family: 'Consolas', sans-serif;
         padding-left: 34%;
     }
 
@@ -41,10 +41,14 @@
     .landing {
         /* background-color: red; */
         height: 500px;
-        margin-bottom: 5%;
+        margin-bottom: 15%;
         text-align: left;
-        padding-left: 15%;
+        padding-left: 12%;
         padding-right: 15%;
+        margin-top: 4%;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
     }
 
     .title {
@@ -56,20 +60,6 @@
     .intro {
         font-family: 'Inter', sans-serif;
         font-size: 24px;
-    }
-
-    footer {
-        margin-top: 10%;
-        margin-bottom: 2%;
-        text-align: center;
-        font-family: 'Inter', sans-serif;
-        font-size: 14px;
-
-    }
-
-    .face {
-        border-radius: 50%;
-        width: 25%;
     }
 
     button {
@@ -88,7 +78,7 @@
     .project {
         padding-left: 15%;
         padding-right: 15%;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
     }
 
     .item {
@@ -96,13 +86,18 @@
         /* background-color: lightgray; */
         width: 100%;
         height: 375px;
-        border-radius: 15px;
+        border-radius: 13px;
 
+    }
+
+    .project-info {
+        padding-left: 4%;
     }
 
     .project-name {
         font-family: 'Inter', sans-serif;
-        font-size: 18px;
+        font-size: 22px;
+        font-weight: bold;
     }
 
     .project-tags {
@@ -119,36 +114,77 @@
     .space-bottom {
         color: black;
         text-decoration: underline;
-        position: absolute;
-        bottom: 0;
+        margin-top: 5%;
+        /* position: absolute;
+        bottom: 0; */
+    }
+
+    .discord {
+        background-color: #8064A2 !important;
+    }
+    .coming-soon {
+        font-family: 'Consolas', sans-serif;
+        font-size: 16px;
+        background-color: gray !important;
+    }
+    .preview {
+        width: 30%;
     }
 
     .connect {
-        padding-left: 16%;
-        margin-top: 5%;
-    }
-
-    .icon {
-        border-radius: 0;
-        width: 30px;
-        margin-left: 10px;
+        padding-left: 20%;
     }
 
     .hook {
-        font-family: 'Inter', sans-serif;
-        font-size: 20px;
+        font-family: 'Consolas', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
     }
 
-    .gray-text {
-        color: gray;
+    .socials {
+        flex-direction: column;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
     }
+
+    .email {
+        padding-right: 3%;
+    }
+
+    .footer-link {
+        text-decoration: none;
+        color: black;
+        padding-right: 3%;
+    }
+
+    .credits {
+        /* padding-left: 1%; */
+        margin-top: 3%;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+    }
+    
+    footer {
+        margin-top: 15%;
+        margin-bottom: 2%;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        margin-bottom: 4%;
+        text-align: center;
+
+    }
+
+
+
+
+
 </style>
 
 
 <body>
     <div class="row container-fluid header">
         <div class="col">
-            <a href="./index.html" class="nav logo">SONIA CUI</a>
+            <a href="./index.html" class="nav logo">sonia cui</a>
         </div>
         <div class="col justify-content-end d-flex menu">
 
@@ -165,40 +201,36 @@
         </div>
     </div>
 
-    <div class="row landing justify-content-around align-items-center">
+    <div class="row landing align-items-center">
         <div class="col">
-            <h1 class="title">Hello!</h1>
-            <h4 class="intro"> I'm 
-                <span class="gray-text">Sonia</span>, 
-                an aspiring product designer currently studying 
-                <span class="gray-text">computer science </span> 
-                at the University of Waterloo, passionate about creating seamless 
-                <span class="gray-text">user experiences</span> :) </h3>
+            <img class="landing" alt="Hi I'm Sonia" src="./sonia.png" />
         </div>
     </div>
 
     <!-- discord extension project -->
     <div class="row project" id="projects-section">
-        <div class="col">
+        <div class="col project-image">
             <a href="gamers.html">
-                <button type="button" class="btn btn-light item">
-                    <img class="icon" alt="My email address" src="./mail.svg" />
+                <button type="button" class="btn btn-secondary item test discord">
+                    <img class="preview" alt="Discord Extension Preview" src="./discord-preview.png" />
+                    <img class="preview" alt="Discord Extension Preview" src="./discord-preview2.png" />
+                    <img class="preview" alt="Discord Extension Preview" src="./discord-preview3.png" />
                 </button>
             </a>
         </div>
-        <div class="col">
+        <div class="col project-info">
             <div class="row project-name">
-                AND BEYOND
+                And Beyond
             </div>
             <div class="row project-tags">
                 Mobile Design &bull; User Research &bull; Prototyping
             </div>
             <div class="row project-descrip">
-                A discord extension to find and create public servers to more easily discover gaming communities.
+                A discord extension for finding public servers to more easily discover gaming communities.
             </div>
 
             <div class="row">
-                <a href="gamers.html" class="space-bottom">View work &rarr;</a>
+                <a href="gamers.html" class="space-bottom">View project &rarr;</a>
             </div>
 
         </div>
@@ -206,16 +238,17 @@
 
     <!-- cyssc website project -->
     <div class="row project">
-        <div class="col">
+        <div class="col project-image">
             <a href="gamers.html">
-                <button type="button" class="btn btn-light item">
-                    <img class="icon" alt="My email address" src="./mail.svg" />
+                <button type="button" disabled class="btn btn-secondary item coming-soon">
+                    <!-- <img class="icon" alt="My email address" src="./mail.svg" /> -->
+                    coming soon
                 </button>
             </a>
         </div>
-        <div class="col">
+        <div class="col project-info">
             <div class="row project-name">
-                COMING SOON &nbsp; <span class="gray-text">(CYSSC Website Redesign)</span>
+                CYSSC Website Redesign
             </div>
             <div class="row project-tags">
                 Web Design &bull; Web Development
@@ -224,31 +257,42 @@
                 Redesigning the Ontario Ministry of Youth & Social Service's internal website.
             </div>
 
-            <div class="row">
-                <a href="gamers.html" class="space-bottom">View work &rarr;</a>
-            </div>
+            <!-- <div class="row">
+                <a href="gamers.html" class="space-bottom">View project &rarr;</a>
+            </div> -->
 
         </div>
     </div>
 
-    <div class="row">
-        <div class="col connect">
-            <h5 class="hook"> Let's connect! </h5>
-            <div class="row">
-                <a href="#"><img class="icon" alt="My email address" src="./mail.svg" /> soniacuisc@gmail.com </a>
-            </div>
-            <div class="row">
-                <a href="#"><img class="icon" alt="Link to GitHub" src="./github.svg" /> github </a>
-            </div>
-            <div class="row">
-                <a href="#"><img class="icon" alt="Link to LinkedIn" src="./linkedin.svg" /> linkedin </a>
-            </div>
-
-        </div>
-    </div>
 
     <footer>
+        <!-- <div class="row">
+            <div class="col connect"> -->
+                <div class="col">
+                    <h5 class="hook"> Let's Connect!  <span class="socials">
+                </div>
+                <div class="col">
+                    Feel free to reach out on 
+                    <a href="https://www.linkedin.com/in/soniacui/" class=""> linkedin </a>, 
+                    <a href="https://github.com/soniacui" class=""> github </a>,
+                    or shoot me an email at s34cui@uwaterloo.ca to chat more &#128522;.
+                </div>
+              
+                    <!-- <span class="email">s34cui@uwaterloo.ca</span> -->
+                    <!-- <a href="mailto:someone@yoursite.com" target="_blank" rel="noopener noreferrer">email</a>
+                    <a href="https://www.linkedin.com/in/soniacui/" class="footer-link"> linkedin </a>
+                    <a href="https://github.com/soniacui" class="footer-link"> github </a> -->
+                </span></h5>
+    
+               
 
+                <h5 class="credits">designed and coded with &#10084; by sonia cui</h5>
+    
+                <!-- <div class="row credits">
+                    designed and coded with &#10084; by sonia cui
+                </div> -->
+            <!-- </div>
+        </div> -->
     </footer>
 </body>
 
