@@ -1,0 +1,126 @@
+.nav {
+    color: black;
+    padding-left: 5%;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10%;
+}
+
+.logo {
+    font-family: 'Consolas', sans-serif;
+    padding-left: 34%;
+}
+
+.menu {
+    padding-right: 10%;
+    margin-right: 4%;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+a:active {
+    color: gray;
+    text-decoration: none;
+}
+
+.landing {
+    height: 500px;
+    margin-bottom: 5%;
+    text-align: left;
+    padding-left: 12%;
+    padding-right: 15%;
+    margin-top: 4%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.first-project {
+    margin-top: 15%;
+}
+
+.project {
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 6%;
+}
+
+.item {
+    width: 100%;
+    height: 375px;
+    border-radius: 13px;
+
+}
+
+.project-info {
+    padding-left: 4%;
+}
+
+.project-name {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.project-tags {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    margin-bottom: 2%;
+}
+
+.project-descrip {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.space-bottom {
+    color: black;
+    text-decoration: underline;
+    margin-top: 5%;
+}
+
+.discord {
+    background-color: #8064A2 !important;
+}
+
+.coming-soon {
+    font-family: 'Consolas', sans-serif;
+    font-size: 16px;
+    background-color: gray !important;
+}
+
+.preview {
+    width: 30%;
+}
+
+footer {
+    margin-top: 8%;
+    margin-bottom: 2%;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-bottom: 4%;
+    padding-left: 15%;
+}
+
+.hook {
+    font-family: 'Consolas', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.footer-link {
+    text-decoration: none;
+    color: #2C7AD6;
+    font-weight: bold;
+}
+
+.credits {
+    padding-left: 1%;
+    margin-top: 5%;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}

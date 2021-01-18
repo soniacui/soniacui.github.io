@@ -1,0 +1,94 @@
+.nav {
+    color: black;
+    padding-left: 5%;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10%;
+}
+
+.logo {
+    font-family: 'Consolas', sans-serif;
+    padding-left: 34%;
+}
+
+.menu {
+    padding-right: 10%;
+    margin-right: 4%;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+a:active {
+    color: gray;
+    text-decoration: none;
+}
+
+.landing {
+    height: 500px;
+    margin-bottom: 5%;
+    text-align: left;
+    padding-left: 12%;
+    padding-right: 15%;
+    margin-top: 4%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+footer {
+    margin-top: 8%;
+    margin-bottom: 2%;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-bottom: 4%;
+    padding-left: 18%;
+}
+
+.hook {
+    font-family: 'Consolas', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.footer-link {
+    text-decoration: none;
+    color: #2C7AD6;
+    font-weight: bold;
+}
+
+.credits {
+    padding-left: 1%;
+    margin-top: 5%;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.face {
+    width: 65%;
+    border: 1px solid black;
+}
+
+.intro {
+    font-family: 'Consolas', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.about {
+    padding-left: 20%;
+    padding-right: 3%;
+    margin-top: 12%;
+    margin-bottom: 8%;
+}
+
+.sonia {
+    padding-left: 2%;
+    padding-right: 20%;
+    margin-top: 12%;
+    margin-bottom: 8%;
+}
+

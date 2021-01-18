@@ -8,178 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
-
-<style>
-    .nav {
-        color: black;
-        padding-left: 5%;
-        font-family: 'Inter', sans-serif;
-        margin-top: 10%;
-    }
-
-    .logo {
-        font-family: 'Consolas', sans-serif;
-        padding-left: 34%;
-    }
-
-    .menu {
-        padding-right: 10%;
-        margin-right: 4%;
-    }
-
-    a:hover {
-        color: gray;
-        text-decoration: none;
-    }
-
-    a:active {
-        color: gray;
-        text-decoration: none;
-    }
-
-    .landing {
-        /* background-color: red; */
-        height: 500px;
-        margin-bottom: 15%;
-        text-align: left;
-        padding-left: 12%;
-        padding-right: 15%;
-        margin-top: 4%;
-        align-items: center;
-        align-self: center;
-        justify-content: center;
-    }
-
-    .title {
-        font-family: 'Inter', sans-serif;
-        font-size: 32px;
-        line-height: 2.5;
-    }
-
-    .intro {
-        font-family: 'Inter', sans-serif;
-        font-size: 24px;
-    }
-
-    button {
-        margin-right: 1%;
-        border-radius: 0;
-    }
-
-    body {
-        font-family: 'Inter', sans-serif;
-        margin: 0px;
-        padding: 0px;
-        text-align: left;
-        background-color: #ffffff;
-    }
-
-    .project {
-        padding-left: 15%;
-        padding-right: 15%;
-        margin-bottom: 10%;
-    }
-
-    .item {
-        color: black;
-        /* background-color: lightgray; */
-        width: 100%;
-        height: 375px;
-        border-radius: 13px;
-
-    }
-
-    .project-info {
-        padding-left: 4%;
-    }
-
-    .project-name {
-        font-family: 'Inter', sans-serif;
-        font-size: 22px;
-        font-weight: bold;
-    }
-
-    .project-tags {
-        font-family: 'Inter', sans-serif;
-        font-size: 14px;
-        margin-bottom: 2%;
-    }
-
-    .project-descrip {
-        font-family: 'Inter', sans-serif;
-        font-size: 16px;
-    }
-
-    .space-bottom {
-        color: black;
-        text-decoration: underline;
-        margin-top: 5%;
-        /* position: absolute;
-        bottom: 0; */
-    }
-
-    .discord {
-        background-color: #8064A2 !important;
-    }
-    .coming-soon {
-        font-family: 'Consolas', sans-serif;
-        font-size: 16px;
-        background-color: gray !important;
-    }
-    .preview {
-        width: 30%;
-    }
-
-    .connect {
-        padding-left: 20%;
-    }
-
-    .hook {
-        font-family: 'Consolas', sans-serif;
-        font-size: 22px;
-        font-weight: bold;
-    }
-
-    .socials {
-        flex-direction: column;
-        font-family: 'Inter', sans-serif;
-        font-size: 16px;
-    }
-
-    .email {
-        padding-right: 3%;
-    }
-
-    .footer-link {
-        text-decoration: none;
-        color: black;
-        padding-right: 3%;
-    }
-
-    .credits {
-        /* padding-left: 1%; */
-        margin-top: 3%;
-        font-family: 'Inter', sans-serif;
-        font-size: 14px;
-    }
-    
-    footer {
-        margin-top: 15%;
-        margin-bottom: 2%;
-        font-family: 'Inter', sans-serif;
-        font-size: 14px;
-        margin-bottom: 4%;
-        text-align: center;
-
-    }
-
-
-
-
-
-</style>
-
 
 <body>
     <div class="row container-fluid header">
@@ -191,30 +21,28 @@
             <a href="./index.html" class="nav">home</a>
 
             <a href="./index.html#projects-section" class="nav">projects</a>
-            <!--animate down-->
 
             <a href="./about.html" class="nav">about</a>
 
             <a href="./resume.pdf" target="_blank" class="nav">resume</a>
-            <!--pdf of resume can be uploaded in assets-->
 
         </div>
     </div>
 
     <div class="row landing align-items-center">
         <div class="col">
-            <img class="landing" alt="Hi I'm Sonia" src="./sonia.png" />
+            <img class="landing" alt="Hi I'm Sonia" src="./images/sonia.png" />
         </div>
     </div>
 
     <!-- discord extension project -->
-    <div class="row project" id="projects-section">
+    <div class="row project first-project" id="projects-section">
         <div class="col project-image">
             <a href="gamers.html">
                 <button type="button" class="btn btn-secondary item test discord">
-                    <img class="preview" alt="Discord Extension Preview" src="./discord-preview.png" />
-                    <img class="preview" alt="Discord Extension Preview" src="./discord-preview2.png" />
-                    <img class="preview" alt="Discord Extension Preview" src="./discord-preview3.png" />
+                    <img class="preview" alt="Discord Extension Preview" src="./images/discord-preview.png" />
+                    <img class="preview" alt="Discord Extension Preview" src="./images/discord-preview2.png" />
+                    <img class="preview" alt="Discord Extension Preview" src="./images/discord-preview3.png" />
                 </button>
             </a>
         </div>
@@ -241,7 +69,6 @@
         <div class="col project-image">
             <a href="gamers.html">
                 <button type="button" disabled class="btn btn-secondary item coming-soon">
-                    <!-- <img class="icon" alt="My email address" src="./mail.svg" /> -->
                     coming soon
                 </button>
             </a>
@@ -256,44 +83,31 @@
             <div class="row project-descrip">
                 Redesigning the Ontario Ministry of Youth & Social Service's internal website.
             </div>
-
             <!-- <div class="row">
                 <a href="gamers.html" class="space-bottom">View project &rarr;</a>
             </div> -->
-
         </div>
     </div>
 
 
+    <!--socials and credits-->
     <footer>
-        <!-- <div class="row">
-            <div class="col connect"> -->
-                <div class="col">
-                    <h5 class="hook"> Let's Connect!  <span class="socials">
-                </div>
-                <div class="col">
-                    Feel free to reach out on 
-                    <a href="https://www.linkedin.com/in/soniacui/" class=""> linkedin </a>, 
-                    <a href="https://github.com/soniacui" class=""> github </a>,
-                    or shoot me an email at s34cui@uwaterloo.ca to chat more &#128522;.
-                </div>
-              
-                    <!-- <span class="email">s34cui@uwaterloo.ca</span> -->
-                    <!-- <a href="mailto:someone@yoursite.com" target="_blank" rel="noopener noreferrer">email</a>
-                    <a href="https://www.linkedin.com/in/soniacui/" class="footer-link"> linkedin </a>
-                    <a href="https://github.com/soniacui" class="footer-link"> github </a> -->
-                </span></h5>
-    
-               
+        <div class="col">
+            <h5 class="hook"> Let's Connect! </h5>
+        </div>
+        <div class="col">
+            Feel free to reach out on
+            <a href="https://www.linkedin.com/in/soniacui/" class="footer-link"> linkedin</a>,
+            <a href="https://github.com/soniacui" class="footer-link"> github</a>,
+            or shoot me an email at 
+            <span class="footer-link">s34cui@uwaterloo.ca</span> 
+            to chat more. &#128522;
+        </div>
 
-                <h5 class="credits">designed and coded with &#10084; by sonia cui</h5>
-    
-                <!-- <div class="row credits">
-                    designed and coded with &#10084; by sonia cui
-                </div> -->
-            <!-- </div>
-        </div> -->
+ 
+        <h5 class="credits">designed and coded with &#10084; by sonia cui</h5>
     </footer>
 </body>
+
 
 </html>

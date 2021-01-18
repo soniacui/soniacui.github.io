@@ -1,0 +1,75 @@
+.nav {
+    color: black;
+    padding-left: 5%;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10%;
+}
+
+.logo {
+    font-family: 'Consolas', sans-serif;
+    padding-left: 34%;
+}
+
+.menu {
+    padding-right: 10%;
+    margin-right: 4%;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+a:active {
+    color: gray;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.description {
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 5%;
+}
+
+footer {
+    margin-top: 8%;
+    margin-bottom: 2%;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-bottom: 4%;
+    padding-left: 15%;
+}
+
+.hook {
+    font-family: 'Consolas', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.footer-link {
+    text-decoration: none;
+    color: #2C7AD6;
+    font-weight: bold;
+}
+
+.credits {
+    padding-left: 1%;
+    margin-top: 5%;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.highlight {
+    color: blue;
+}
+.temp {
+    width: 80%;
+}
+.proto {
+    width: 20%;
+}

@@ -6,131 +6,24 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/about.css">
 </head>
-
-<style>
-    .nav {
-        background-color: white;
-        color: black;
-        padding-left: 5%;
-        font-family: 'Roboto', sans-serif;
-        margin-top: 10%;
-    }
-
-    .logo {
-        font-family: 'Raleway', sans-serif;
-        padding-left: 20%;
-    }
-
-    .menu {
-        padding-right: 10%;
-    }
-
-    a:hover {
-        color: gray;
-        text-decoration: none;
-    }
-
-    a:active {
-        color: gray;
-        text-decoration: none;
-    }
-
-    .landing {
-        /* background-color: red; */
-        height: 500px;
-        margin-bottom: 5%;
-        text-align: left;
-        padding-left: 15%;
-        padding-right: 15%;
-    }
-
-    .title {
-        font-family: 'Raleway', sans-serif;
-        font-weight: bold;
-        font-size: 86px;
-        /* letter-spacing: 35px; */
-        line-height: 0.5em;
-    }
-
-    footer {
-        margin-top: 10%;
-        margin-bottom: 2%;
-        text-align: center;
-        font-family: 'Raleway', sans-serif;
-        font-size: 14px;
-
-    }
-
-    .face {
-        width: 65%;
-        border: 1px solid black;
-    }
-
-    button {
-        margin-right: 1%;
-        border-radius: 0;
-    }
-
-    .intro {
-        font-family: 'Consolas', sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-    }
-    body {
-        font-family: 'Roboto', sans-serif;
-        margin: 0px;
-        padding: 0px;
-        text-align: left;
-    }
-
-    .about {
-        padding-left: 20%;
-        padding-right: 3%;
-        margin-top: 12%;
-        margin-bottom: 8%;
-    }
-
-    .sonia {
-        padding-left: 2%;
-        padding-right: 20%;
-        margin-top: 12%;
-        margin-bottom: 8%;
-    }
-    .connect {
-        padding-left: 16%;
-        margin-top: 5%;
-    }
-
-    .icon {
-        border-radius: 0;
-        width: 30px;
-        margin-left: 10px;
-    }
-
-    .hook {
-        font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-    }
-</style>
 
 
 <body>
     <div class="row container-fluid header">
         <div class="col">
-            <a href="./index.html" class="nav logo">SONIA CUI</a>
+            <a href="./index.html" class="nav logo">sonia cui</a>
         </div>
         <div class="col justify-content-end d-flex menu">
 
-            <a href="./index.html" class="nav">Home</a>
+            <a href="./index.html" class="nav">home</a>
 
-            <a href="./index.html#projects-section" class="nav">Projects</a>
-            <!--animate down-->
+            <a href="./index.html#projects-section" class="nav">projects</a>
 
-            <a href="./about.html" class="nav">About</a>
+            <a href="./about.html" class="nav">about</a>
 
-            <a href="./resume.html" class="nav">Resume</a>
-            <!--pdf of resume can be uploaded in assets-->
+            <a href="./resume.pdf" target="_blank" class="nav">resume</a>
 
         </div>
     </div>
@@ -150,28 +43,26 @@
 
         </div>
         <div class="col sonia">
-            <img class="face" alt="A picture of me :)" src="./sonia-face.jpg" /> 
+            <img class="face" alt="A picture of me :)" src="./images/sonia-face.jpg" /> 
         </div>
     </div>
 
-    <div class="row">
-        <div class="col connect">
-            <h5 class="hook"> Let's connect! </h5>
-            <div class="row">
-                <a href="#"><img class="icon" alt="My email address" src="./mail.svg" /> soniacuisc@gmail.com </a>
-            </div>
-            <div class="row">
-                <a href="#"><img class="icon" alt="Link to GitHub"src="./github.svg" /> github </a>
-            </div>
-            <div class="row">
-                <a href="#"><img class="icon" alt="Link to LinkedIn" src="./linkedin.svg" /> linkedin </a>
-            </div>
-
-        </div>
-    </div>
-
+    <!--socials and credits-->
     <footer>
-        © Sonia Cui 2021
+        <div class="col">
+            <h5 class="hook"> Let's Connect! </h5>
+        </div>
+        <div class="col">
+            Feel free to reach out on
+            <a href="https://www.linkedin.com/in/soniacui/" class="footer-link"> linkedin</a>,
+            <a href="https://github.com/soniacui" class="footer-link"> github</a>,
+            or shoot me an email at 
+            <span class="footer-link">s34cui@uwaterloo.ca</span> 
+            to chat more. &#128522;
+        </div>
+
+ 
+        <h5 class="credits">designed and coded with &#10084; by sonia cui</h5>
     </footer>
 
 
