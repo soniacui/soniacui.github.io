@@ -2,23 +2,24 @@
 <html>
 
 <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 
 <style>
-
     .nav {
         color: black;
         padding-left: 5%;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Inter', sans-serif;
         margin-top: 10%;
     }
 
     .logo {
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Inter', sans-serif;
         padding-left: 34%;
     }
 
@@ -47,20 +48,21 @@
     }
 
     .title {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Inter', sans-serif;
         font-size: 32px;
         line-height: 2.5;
     }
+
     .intro {
-        font-family: 'Roboto', sans-serif;
-        font-size: 24px; 
+        font-family: 'Inter', sans-serif;
+        font-size: 24px;
     }
 
     footer {
         margin-top: 10%;
         margin-bottom: 2%;
         text-align: center;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Inter', sans-serif;
         font-size: 14px;
 
     }
@@ -76,7 +78,7 @@
     }
 
     body {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Inter', sans-serif;
         margin: 0px;
         padding: 0px;
         text-align: left;
@@ -97,19 +99,20 @@
         border-radius: 15px;
 
     }
+
     .project-name {
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Inter', sans-serif;
         font-size: 18px;
     }
 
     .project-tags {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Inter', sans-serif;
         font-size: 14px;
         margin-bottom: 2%;
     }
 
     .project-descrip {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Inter', sans-serif;
         font-size: 16px;
     }
 
@@ -132,8 +135,12 @@
     }
 
     .hook {
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Inter', sans-serif;
         font-size: 20px;
+    }
+
+    .gray-text {
+        color: gray;
     }
 </style>
 
@@ -145,14 +152,14 @@
         </div>
         <div class="col justify-content-end d-flex menu">
 
-            <a href="./index.html" class="nav">Home</a>
+            <a href="./index.html" class="nav">home</a>
 
-            <a href="./index.html#projects-section" class="nav">Projects</a>
+            <a href="./index.html#projects-section" class="nav">projects</a>
             <!--animate down-->
 
-            <a href="./about.html" class="nav">About</a>
+            <a href="./about.html" class="nav">about</a>
 
-            <a href="./resume.pdf" target="_blank" class="nav">Resume</a>
+            <a href="./resume.pdf" target="_blank" class="nav">resume</a>
             <!--pdf of resume can be uploaded in assets-->
 
         </div>
@@ -160,9 +167,13 @@
 
     <div class="row landing justify-content-around align-items-center">
         <div class="col">
-            <h1 class="title">Hi, I'm Sonia!</h1>
-            <h4 class="intro"> I'm an aspiring product designer currently studying computer science at the University of Waterloo,
-                passionate about creating great experiences for users (: </h3>
+            <h1 class="title">Hello!</h1>
+            <h4 class="intro"> I'm 
+                <span class="gray-text">Sonia</span>, 
+                an aspiring product designer currently studying 
+                <span class="gray-text">computer science </span> 
+                at the University of Waterloo, passionate about creating seamless 
+                <span class="gray-text">user experiences</span> :) </h3>
         </div>
     </div>
 
@@ -177,10 +188,10 @@
         </div>
         <div class="col">
             <div class="row project-name">
-                PROJECT NAME
+                AND BEYOND
             </div>
             <div class="row project-tags">
-                User Research . Mobile Design . Prototyping
+                Mobile Design &bull; User Research &bull; Prototyping
             </div>
             <div class="row project-descrip">
                 A discord extension to find and create public servers to more easily discover gaming communities.
@@ -204,13 +215,13 @@
         </div>
         <div class="col">
             <div class="row project-name">
-                PROJECT NAME
+                COMING SOON &nbsp; <span class="gray-text">(CYSSC Website Redesign)</span>
             </div>
             <div class="row project-tags">
-                Web Design 
+                Web Design &bull; Web Development
             </div>
             <div class="row project-descrip">
-                Redesigning CYSSC's internal webpage.
+                Redesigning the Ontario Ministry of Youth & Social Service's internal website.
             </div>
 
             <div class="row">
@@ -237,7 +248,7 @@
     </div>
 
     <footer>
- 
+
     </footer>
 </body>
 

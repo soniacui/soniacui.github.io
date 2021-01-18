@@ -6,6 +6,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 
 <style>
@@ -13,7 +14,7 @@
         background-color: white;
         color: black;
         padding-left: 5%;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'inter', sans-serif;
         margin-top: 10%;
     }
 
@@ -73,7 +74,7 @@
     }
 
     body {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'inter', sans-serif;
         margin: 0px;
         padding: 0px;
         text-align: left;
@@ -117,6 +118,9 @@
         padding-right: 20%;
         margin-top: 5%;
     }
+    .highlight {
+        color: blue;
+    }
 </style>
 
 
@@ -157,51 +161,60 @@
             <br />
 
             <h3>The Problem</h3>
-            <p>With everyone staying at home due to the unpredented COVID-19, gaming has become more popular than ever,
-                especially
-                as a tool to pass time and bond with others. Video game streamers on twitch views have gone up 50% in
-                just between
-                April and May of 2020. As more and more people turn to gaming for entertainment, I wanted to tackle the
-                issue of
-                wanting to play a super fun game, but not having the people to play it with/wanting to bond with people
-                over games.
+            <p> With everyone staying at home due to the unfortunate COVID-19, gaming has become more popular than ever
+                as a means to pass time and bond with others. However, it can be 
+                <span class="highlight">difficult to find people to play games with.</span>
+                Friends aren't always free, or want to play the same games as you, or the same skill level as you.
             </p>
-            <!--bold the main problem statement-->
+
             <h4>Goal</h4>
-            <p>To make it easier for people to find people to play games with/meet people through games.</p>
+            <p><span class="highlight">Create an efficient and practical way to help people to meet others through games</span></p>
 
             <br />
 
             <h3>Research</h3>
             <h4>Primary Research</h4>
-            <p>I conducted surveys and interviews to dive deeper into what gamers find important in gaming friends.
-                I discovered that:
-            <ul>
-                <li>people mainly find people to play games with through Discord, or current/mutual friends</li>
-                <li>the most important factors when looking for someone to play games with are: availability,
+            <p>I conducted surveys and interviews to dive deeper into understanding how gamers currently look for gaming
+                companions, what exactly they look for, and what they find difficult about the process. 
+
+            <h5>Insights</h5>
+            <ol>
+                <li>People mainly find people to play games with through Discord, current friends, or mutual friends</li>
+                <li>The most important factors when looking for someone to play games with are availability,
                     shared interests, and skill level
                 </li>
-                <li>the main obstacles to finding people to play games with are differing schedules, skill levels,
+                <li>The main obstacles to finding people to play games with are differing schedules, skill levels,
                     or differing intentions with the game (e.g. casual vs. serious)
                 </li>
-            </ul>
+            </ol>
 
             </p>
-            <h4>Pain Points</h4>
+
+            <h5>Pain Points</h5>
             <p>
             <ol>
                 <li>
-                    People generally don't want to play with strangers and would rather play with friends or mutuals
+                    People have differing schedules <br/>
+                    Everybody's busy with something, and can't always play at a moment's notice. People often have different
+                    sleep schedules, or have school/work deadlines. It's especially to sync up a good time for games that
+                    require more people, such as Among Us. This was the #1 complaint about finding people to play with.
                 </li>
                 <li>
-                    Sometimes friends don't play the same games or have different goals with the game
+                    Friends may have different skill levels <br/>
+                    Even if a few friends are free at the same time and both love the same game, they might not be able to play well together.
+                    For example, in League of Legends, a person ranked very highly at Diamond cannot play ranked with someone ranked much lower
+                    at Bronze. They could play casually, but the skill gap may make the game feel too easy or too difficult for either player.
+                   
                 </li>
                 <li>
-                    People have different schedules, so it's sometimes difficult to sync up a good time to play together
+                    Interests and personalities need to align <br/>
+                    Friends might not play the same games, or may have different goals within the game (e.g. casual vs. serious).
+                    For example, some people don't play shooters because it makes them dizzy, some people only play adventure games, or 
+                    some people only want to play ranked.
                 </li>
             </ol>
             </p>
-
+      
             <br />
 
             <h4>Competitive Analysis</h4>
@@ -209,50 +222,45 @@
                 <thead>
                     <tr>
                         <th></th>
-                        <th>Discordservers.com</th>
-                        <th>GameTree</th>
-                        <th>Adding people in game</th>
-                        <th>Playing with real life friends</th>
+                        <th>Find a Discord Server</th>
+                        <th>GameTree <br/>(mobile app)</th>
+                        <th>Game Subreddit</th>
+                        <th>Current real-life friends</th>
+                    </tr>
+                    <tr>
+                        <td>Filter Compatibility (skill, interests)</td>
+                        <td><img alt="cross" src="./x.svg"/></td>
+                        <td><img alt="cross" src="./check.svg"/></td>
+                        <td><img alt="cross" src="./check.svg"/></td>
+                        <td><img alt="cross" src="./check.svg"/></td>
                     </tr>
                     <tr>
                         <td>Schedule Availability</td>
-                        <td>Y</td>
-                        <td>Y</td>
-                        <td>N</td>
-                        <td>Y</td>
+                        <td><img alt="cross" src="./x.svg"/></td>
+                        <td><img alt="cross" src="./x.svg"/></td>
+                        <td><img alt="cross" src="./x.svg"/></td>
+                        <td><img alt="cross" src="./x.svg"/></td>
                     </tr>
                     <tr>
-                        <td>Skill Level Filtering</td>
-                        <td>N</td>
-                        <td>Y</td>
-                        <td>Y</td>
-                        <td>N</td>
+                        <td>Reach - how big is the network of users?</td>
+                        <td>high, big user base</td>
+                        <td>low, small user base</td>
+                        <td>low, not many people use reddit to find gamers</td>
+                        <td>low</td>
                     </tr>
                     <tr>
-                        <td>Shared Interest Filtering</td>
-                        <td>Y</td>
-                        <td>Y</td>
-                        <td>Y</td>
-                        <td>Y</td>
+                        <td>Easy to connect with existing friends?</td>
+                        <td><img alt="cross" src="./check.svg"/></td>
+                        <td><img alt="cross" src="./x.svg"/></td>
+                        <td><img alt="cross" src="./x.svg"/></td>
+                        <td><img alt="cross" src="./check.svg"/></td>
                     </tr>
-                    <tr>
-                        <td>Personality Filtering</td>
-                        <td>N</td>
-                        <td>N</td>
-                        <td>N</td>
-                        <td>Y</td>
-                    </tr>
-                </thead>
             </table>
 
             <br/>
 
-            <table class="table">
-                <tr>
-                    <th>Key Takeaways</th>
-                    <th>#####</th>
-                    <th>Opportunities</th>
-                </tr>
+            <h4>Opportunities</h4>
+  
                 <tr>
                     <td>
                         People want to play with friends, mutuals, or people with shared interests so they'll get along.
@@ -273,12 +281,66 @@
                     <td>Group people based on the game they're interested in and their intentions within the game</td>
                 </tr>
 
-
-            </table>
             <br/>
 
             <h3>The Redesign</h3>
+        
+
+            <h4>The Concept</h4>
+            A Discord extension that allows people to search for public servers - they can search by game
+            and see mutuals already in the server. There will also be a new 'Events' type channel in
+            each server to create events.
+            #1 complaint was availability -> vote for meetups ahead of time so people can easily decide
+             a time, and make time for it
+            #2 complaint was similar personality/intentions w the game -> people can join game-specific servers 
+             that match their goals (e.g. diamond+, sweaty, casual, etc...)
+            #3 complaint was skill level -> people can join game-specific servers that meet their skill level
+             (e.g. diamond+, plat+, ...)
+
+
+            I decided to with concept 2 because it seemed more practical - 89% of gamers already
+            use Discord, so it would be smarter to build on top of something that people already use.
+            I can take advantage of the fact that people connect through already-existing mutuals on
+            Discord, and that they're already used to the UI.
+            Traditionally, Discord servers are private and require and invitation to join. However,
+            there are thousands of servers meant to have as many people as possible, such Toronto
+            Pokemon Go servers, Among Us servers, and many more...
+            And Beyond is a discord extension that will allow users to search beyond their
+            the users' private servers to discover public servers for the games and people they desire!
+            Great way to find people to play games with & meet new people
+
+            <h3>Wireframes</h3>
+
+            <h3>Constraints</h3>
+            Since I'm creating a Discord extension, I need to make sure my tone and design match Discord's.
+            I chose typeface Segoe UI, identical to Discord's own font, and followed their colour palette
+            and tone throughout the design process.
+
+            <td><img class="" alt="Style Guide" src="./style-guide.png"/></td>
+
+
+            <h3>Prototypes</h3>
+            Quick pitch
+            [video]
+
+            [breakdown of features: screenshot + descript]
+            <h4>Features</h4>
+            1. Search for public server by game; can see/filter by tags if looking for a game
+
+            2. Search for server by style/intent with the game/rank, e.g. casual/competitive,
+               diamond+, main champion, location (EU), ...)
+            
+            3. Public servers have specific EVENT channels to make it easier to
+               host events
+               Like a regular text channel to discuss the upcoming event, but also a
+               poll that allows users to vote for the event time to maximize the # of people who
+               can come - availability was the #1 complaint in user surveys.
+
+
             <h3>Conclusion</h3>
+
+            <h4>For the future...</h4>
+
 
             <div class="row">
                 <div class="col connect">
