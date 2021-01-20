@@ -125,7 +125,7 @@ footer {
 .subheading {
     font-family: 'Inter', sans-serif;
     font-size:24;
-    color: #7289DA;
+    color: #4e67bf;
 }
 .section {
     margin-bottom: 3%;
@@ -219,3 +219,6 @@ table {
 /* .overview  {
     justify-content: space-around;
 } */
+.temp {
+    padding-left: 5%;
+}

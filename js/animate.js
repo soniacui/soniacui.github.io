@@ -1,3 +1,1 @@
-$(document).ready(function () {
-    $('div.hidden').fadeIn(1500).removeClass('hidden');
-});
+$(body).fadeIn(1,{});

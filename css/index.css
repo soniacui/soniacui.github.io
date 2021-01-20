@@ -31,7 +31,7 @@ a:active {
 
 .landing {
     height: 500px;
-    margin-bottom: 5%;
+    margin-bottom: 13%;
     text-align: left;
     padding-left: 12%;
     padding-right: 15%;
@@ -45,7 +45,7 @@ body {
 }
 
 .first-project {
-    margin-top: 20%;
+    padding-top: 4%;
 }
 
 .project {
@@ -106,29 +106,28 @@ body {
 }
 
 .preview {
-    width: 50%;
+    width: 54%;
     position: absolute;
     bottom: 0;
 }
-
 footer {
     margin-top: 8%;
     margin-bottom: 2%;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
-    margin-bottom: 5%;
-    padding-left: 15%;
-    padding-right: 20%;
+    margin-bottom: 4%;
+    padding-left: 18%;
 }
 
 .hook {
-    font-family: 'Inter', sans-serif;
-    font-size: 32px;
-    font-weight: 400;
+    font-family: 'Consolas', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
 }
 .footer-link {
     text-decoration: none;
-    color: #dee7fa;
+    color: #2C7AD6;
+    font-weight: bold;
 }
 
 .credits {
@@ -138,4 +137,7 @@ footer {
     font-size: 16px;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
 @import url(https://fonts.googleapis.com/css?family=Istok+Web);
