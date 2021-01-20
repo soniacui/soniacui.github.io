@@ -66,20 +66,22 @@ body {
 }
 
 .project-name {
-    font-family: 'Consolas', sans-serif;
-    font-size: 22px;
-    font-weight: bold;
+    margin-top: 5%;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
 }
 
 .project-tags {
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    margin-bottom: 2%;
+    font-size: 13px;
+    margin-bottom: 5%;
 }
 
 .project-descrip {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
+    margin-bottom: 5%;
 }
 
 .space-bottom {
@@ -89,17 +91,24 @@ body {
 }
 
 .discord {
-    background-color: #808080 !important;
+    background-color: #dee7fa !important;
+    border-width: 0 !important;
+    border-radius: 20px;
 }
 
 .coming-soon {
-    font-family: 'Consolas', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
-    background-color: #808080 !important;
+    background-color: #dee7fa !important;
+    border-width: 0 !important;
+    border-radius: 20px;
+    color: black !important;
 }
 
 .preview {
-    width: 30%;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
 }
 
 footer {
@@ -109,17 +118,17 @@ footer {
     font-size: 16px;
     margin-bottom: 5%;
     padding-left: 15%;
+    padding-right: 20%;
 }
 
 .hook {
-    font-family: 'Consolas', sans-serif;
-    font-size: 22px;
-    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
 }
 .footer-link {
     text-decoration: none;
-    color: #2C7AD6;
-    font-weight: bold;
+    color: #dee7fa;
 }
 
 .credits {

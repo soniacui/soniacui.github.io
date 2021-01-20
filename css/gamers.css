@@ -85,23 +85,25 @@ footer {
 }
 
 .preview {
-    background-color: lightgray;
-    height: 535px;
+    background-color: #dee7fa;
+    height: 500px;
     margin-top: 3%;
     margin-right: 15%;
     margin-left: 15%;
 }
 
 .discord-preview {
-    width:33%;
-
+    width: 65%;
+    position: absolute;
+    bottom: 0;
 }
+
 .title {
     font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: bold;
-    margin-top: 8%;
-    padding-left: 8%;
+    margin-top: 27%;
+    padding-left: 14%;
 }
 
 .view-proto {
@@ -122,8 +124,8 @@ footer {
 }
 .subheading {
     font-family: 'Inter', sans-serif;
-    font-size: 30px;
-    color: black;
+    font-size:24;
+    color: #7289DA;
 }
 .section {
     margin-bottom: 3%;
@@ -213,3 +215,7 @@ table {
 .italics {
     font-style: italic;
 }
+
+/* .overview  {
+    justify-content: space-around;
+} */
