@@ -28,12 +28,14 @@ a:active {
 body {
     font-family: 'Inter', sans-serif;
     text-align: left;
-    background-color: #ffffff;
+    background-color: #f6f6f6;
+    line-height: 175%;
+    color: #4F535C;
 }
 
 .description {
-    padding-left: 18%;
-    padding-right: 18%;
+    padding-left: 20%;
+    padding-right: 20%;
     margin-top: 5%;
 }
 
@@ -118,14 +120,23 @@ footer {
 .heading {
     font-family: 'Inter', sans-serif;
     font-size: 32px;
-    color: black;
+    font-weight: 500;
+    color: #4F535C;
     margin-bottom: 2%;
-    font-weight: bold;
 }
 .subheading {
     font-family: 'Inter', sans-serif;
-    font-size:24;
-    color: #4e67bf;
+    font-size: 20px;
+    color: #6897f9;
+}
+
+.overview {
+    margin-bottom: 4%;
+  
+}
+
+.overview h4 {
+    font-weight: 500;
 }
 .section {
     margin-bottom: 3%;
@@ -135,11 +146,50 @@ footer {
     margin-top: 10%;
 }
 
+.primary-research {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+.survey {
+    width: 55%;
+}
+
+.primary-research .left {
+    margin-right: 2%;
+}
+
+.primary-research .right {
+    margin-left: 2%;
+}
+
+
+.key-insights {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-bottom: 9%;
+}
+.insights {
+    width: 30%;
+}
+
+.key-insights .middle {
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+
+
 .style-guide {
-    width: 100%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3%;
+    margin-top: 4%;
     margin-bottom: 5%;
 
 }
@@ -170,11 +220,11 @@ footer {
    
 }
 .feature-special-left {
-    width: 33%;
-    margin-left: 18%;
+    width: 38%;
+    margin-left: 10%;
 }
 .feature-special-right {
-    width: 33%;
+    width: 38%;
 }
 
 
@@ -184,16 +234,24 @@ footer {
 }
 
 .small-indent {
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
 }
 
 th {
     text-align: center;
+    font-size: 14px;
+    border-top: 0px !important
 }
+
 td {
     text-align: center;
+    font-size: 14px;
 }
+td:first-child {
+    border-left: 0px !important;
+}
+
 .align-left {
     text-align: left;
 }
@@ -209,7 +267,11 @@ hr {
 }
 
 table {
-    margin-top: 2%;
+    margin-top: 3%;
+}
+
+.table {
+    margin-bottom: 8%;
 }
 
 .italics {
@@ -221,4 +283,24 @@ table {
 } */
 .temp {
     padding-left: 5%;
+}
+
+.extra-margin-top {
+    margin-top: 6%;
+}
+.extra-margin-bottom {
+    margin-bottom: 2%;
+}
+
+/* .feature-descrip-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: center;
+    justify-content: center;
+    background-color: red;
+} */
+
+.feature-margin-bottom {
+    margin-bottom: 5%;
 }
